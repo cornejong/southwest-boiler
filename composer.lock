@@ -1,0 +1,73 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "4d669a46d7dc484e6ac414b7f4c54581",
+    "packages": [
+        {
+            "name": "southcoast/helpers",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cornejong/southcoast-helpers.git",
+                "reference": "d08cf082877e51c2a95ed31fc0a69edbc84de6a2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cornejong/southcoast-helpers/zipball/d08cf082877e51c2a95ed31fc0a69edbc84de6a2",
+                "reference": "d08cf082877e51c2a95ed31fc0a69edbc84de6a2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SouthCoast\\Helpers\\": "src/helpers/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Corné de Jong | SouthCoast",
+                    "email": "corne@southcoast.tech",
+                    "homepage": "http://southcoast.tech",
+                    "role": "Developer & Engineer"
+                }
+            ],
+            "description": "A Collection of helper classes for PHP",
+            "keywords": [
+                "Envoiroment",
+                "array",
+                "env",
+                "helper",
+                "helpers",
+                "identifier",
+                "json",
+                "log",
+                "logging",
+                "object",
+                "validation"
+            ],
+            "time": "2019-04-19T21:07:33+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "southcoast/helpers": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.0"
+    },
+    "platform-dev": []
+}
