@@ -1,3 +1,5 @@
+composer.lock
+
 vendor/*
 Runtime/cache/*
 Runtime/sessions/*

@@ -4,20 +4,48 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4d669a46d7dc484e6ac414b7f4c54581",
+    "content-hash": "4a8e66852b87f7192af98cde194875bb",
     "packages": [
+        {
+            "name": "southcoast/cache",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cornejong/southcoast-cache.git",
+                "reference": "dde40f1b2bdd7ca2f18ac13fec596b0149a5fa59"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cornejong/southcoast-cache/zipball/dde40f1b2bdd7ca2f18ac13fec596b0149a5fa59",
+                "reference": "dde40f1b2bdd7ca2f18ac13fec596b0149a5fa59",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Corné de Jong",
+                    "email": "corne.dejong@me.com"
+                }
+            ],
+            "description": "Caching class for rapid php development",
+            "time": "2019-04-21T19:10:20+00:00"
+        },
         {
             "name": "southcoast/helpers",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cornejong/southcoast-helpers.git",
-                "reference": "d08cf082877e51c2a95ed31fc0a69edbc84de6a2"
+                "reference": "c4c180d17f2a6754a9d80ae8216cd8655353fccc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cornejong/southcoast-helpers/zipball/d08cf082877e51c2a95ed31fc0a69edbc84de6a2",
-                "reference": "d08cf082877e51c2a95ed31fc0a69edbc84de6a2",
+                "url": "https://api.github.com/repos/cornejong/southcoast-helpers/zipball/c4c180d17f2a6754a9d80ae8216cd8655353fccc",
+                "reference": "c4c180d17f2a6754a9d80ae8216cd8655353fccc",
                 "shasum": ""
             },
             "require": {
@@ -55,14 +83,93 @@
                 "object",
                 "validation"
             ],
-            "time": "2019-04-19T21:07:33+00:00"
+            "time": "2019-04-21T15:06:26+00:00"
+        },
+        {
+            "name": "southcoast/novelty",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cornejong/southcoast-novilty.git",
+                "reference": "8936eba5c0242e2cd878f76d4995aa9d9c758cdf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cornejong/southcoast-novilty/zipball/8936eba5c0242e2cd878f76d4995aa9d9c758cdf",
+                "reference": "8936eba5c0242e2cd878f76d4995aa9d9c758cdf",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SouthCoast\\Novelty\\": "src/Novelty/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Corné de Jong | SouthCoast",
+                    "email": "corne@southcoast.tech",
+                    "homepage": "http://southcoast.tech",
+                    "role": "Developer & Engineer"
+                }
+            ],
+            "description": "A collection of novelty classes for PHP",
+            "time": "2019-04-21T19:03:15+00:00"
+        },
+        {
+            "name": "southcoast/utility",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cornejong/southcoast-utility.git",
+                "reference": "07cce20d0a126d77196184b4a0aa8644cffd4c81"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cornejong/southcoast-utility/zipball/07cce20d0a126d77196184b4a0aa8644cffd4c81",
+                "reference": "07cce20d0a126d77196184b4a0aa8644cffd4c81",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SouthCoast\\Utility\\": "src/Utility/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Corné de Jong | SouthCoast",
+                    "email": "corne@southcoast.tech",
+                    "homepage": "http://southcoast.tech",
+                    "role": "Developer & Engineer"
+                }
+            ],
+            "description": "A collection of Utility tools for PHP",
+            "time": "2019-04-21T19:04:45+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "southcoast/helpers": 20
+        "southcoast/helpers": 20,
+        "southcoast/utility": 20,
+        "southcoast/cache": 20,
+        "southcoast/novelty": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

@@ -11,7 +11,10 @@
   ],
   "require": {
     "php": ">=7.0",
-    "southcoast/tools": "dev-master"
+    "southcoast/helpers": "dev-master",
+    "southcoast/utility": "dev-master",
+    "southcoast/cache": "dev-master",
+    "southcoast/novelty": "dev-master"
   },
   "autoload": {
     "psr-4": {
